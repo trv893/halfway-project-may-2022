@@ -12,6 +12,10 @@ console.log("main");
 let spanTags = $('h1 > span');
 let count = 0;
 
+// for(var i = 0; i < spanTags.length; i++){
+//   console.log(spanTags.get(i));
+// }
+
 let interval = setInterval(() => {
   $(spanTags.get(count)).addClass("animate__animated animate__bounce animate__infinite show");
 
