@@ -24,3 +24,11 @@ let interval = setInterval(() => {
     clearInterval(interval);
   }
 }, 300);
+
+
+document.getElementById("button5").addEventListener("click", function () {
+  video.style.height = "350px";
+  video.style.width = "350px";
+  video.style.display = "block";
+  video.src = "https://player.vimeo.com/video/148751763?h=1e9ea2a314&autoplay=1"; video
+});
